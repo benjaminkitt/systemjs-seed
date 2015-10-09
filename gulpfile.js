@@ -35,6 +35,7 @@ var serverOptions = {
 	notify: false,
 	ghostMode: false,
 	port: process.env.PORT || 9000,
+	scrollRestoreTechnique: 'cookie',
 	server: {
 		baseDir: [path.output],
 		routes: {
